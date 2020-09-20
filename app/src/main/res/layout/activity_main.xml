@@ -55,7 +55,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:onClick="onDigit"
+            android:onClick="onOperator"
             android:text="@string/divide" />
     </LinearLayout>
 
@@ -96,7 +96,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:onClick="onDigit"
+            android:onClick="onOperator"
             android:text="@string/multiply" />
     </LinearLayout>
 
@@ -137,7 +137,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:onClick="onDigit"
+            android:onClick="onOperator"
             android:text="@string/subtract" />
     </LinearLayout>
 
@@ -153,7 +153,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:onClick="onDigit"
+            android:onClick="onDecimalPoint"
             android:text="@string/decimal"
             tools:ignore="NestedWeights" />
 
@@ -170,7 +170,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:onClick="onDigit"
+            android:onClick="onClear"
             android:text="@string/clear" />
 
         <Button
@@ -178,7 +178,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:onClick="onDigit"
+            android:onClick="onOperator"
             android:text="@string/add" />
     </LinearLayout>
 
@@ -188,6 +188,6 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:onClick="onDigit"
+        android:onClick="onEqual"
         android:text="@string/equal" />
 </LinearLayout>
